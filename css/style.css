@@ -79,6 +79,10 @@ padding-bottom: 94px;
 padding-top: 0;
 }
 
+.label {
+display: block;
+}
+
 /* Header */
 .page-header {
 background-color: var(--background-color-header);
