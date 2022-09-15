@@ -526,6 +526,11 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 
+.modal-link {
+color: var(--accent-color);
+text-decoration-line: underline;
+}
+
 .button-modal {
 display: block;
 margin-right: auto;
