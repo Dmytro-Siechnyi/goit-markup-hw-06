@@ -83,6 +83,10 @@ label {
 display: block;
 }
 
+textarea {
+resize: none;
+}
+
 /* Header */
 .page-header {
 background-color: var(--background-color-header);
