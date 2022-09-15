@@ -38,6 +38,7 @@
     --backdrop-color: rgba(0, 0, 0, 0.2);
     /* рамка */
     --color-border-projects: #eeeeee;
+    --border-color-footer: rgba(255, 255, 255, 0.3);
     /* формули */
     --items: 3;
     --indent: 30px;
@@ -1050,6 +1051,8 @@ display: flex;
 }
 
 .footer-form-field input {
+display: block;
+
 padding: 15px 16px;
 
 margin-right: 12px;
@@ -1057,7 +1060,7 @@ margin-right: 12px;
 min-width: 358px;
 height: 50px;
 
-border: 1px solid var(--accent-color-text-footer);
+border: 1px solid var(--border-color-footer);
 background-color: var(--background-color-footer);
 border-radius: 4px;
 
@@ -1065,12 +1068,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.25;
 
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
-
+color: var(--accent-color-text-footer);
 }
 
 /* ---------ПОРТФОЛІО--------- */
