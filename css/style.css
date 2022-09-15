@@ -1055,8 +1055,14 @@ display: flex;
 display: block;
 
 padding: 15px 16px;
-
 margin-right: 12px;
+
+color: var(--footer-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+
 
 min-width: 358px;
 height: 50px;
