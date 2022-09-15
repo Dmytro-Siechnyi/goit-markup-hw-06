@@ -522,7 +522,7 @@ color: var(--primary-text-color);
 }
 
 .checkbox-modal input[type="checkbox"] {
-    
+
 }
 
 .checkbox-contract {
@@ -1022,6 +1022,55 @@ fill: currentColor;
 .socials-link-footer:hover,
 .socials-link-footer:focus {
 background-color: var(--accent-color);
+}
+
+/* форма */
+.footer-form {
+min-width: 570;
+min-height: 86px;
+margin-left: auto;
+}
+
+.footer-form-title {
+display: block;
+
+margin-bottom: 20px;
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--footer-text-color);
+}
+
+.footer-form-group {
+display: flex;
+}
+
+.footer-form-field input {
+padding: 15px 16px;
+
+margin-right: 12px;
+
+min-width: 358px;
+height: 50px;
+
+border: 1px solid var(--accent-color-text-footer);
+background-color: var(--background-color-footer);
+border-radius: 4px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
 }
 
 /* ---------ПОРТФОЛІО--------- */
