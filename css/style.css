@@ -39,6 +39,7 @@
     /* рамка */
     --color-border-projects: #eeeeee;
     --border-color-footer: rgba(255, 255, 255, 0.3);
+    --border-color-modal: rgba(33, 33, 33, 0.2);
     /* формули */
     --items: 3;
     --indent: 30px;
@@ -466,7 +467,7 @@ padding: 12px 16px;
 width: 100%;
 height: 40px;
 
-border: 1px solid rgba(33, 33, 33, 0.2);
+border: 1px solid var(--border-color-modal);
 border-radius: 4px;
 
 font-size: 12px;
