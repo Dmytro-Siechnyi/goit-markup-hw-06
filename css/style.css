@@ -380,7 +380,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 
-width: 528px;
+min-width: 528px;
 min-height: 581px;
 padding: 15px;
 
@@ -423,6 +423,40 @@ color: var(--bottom-madal);
 background-color: var(--background-color-header);
 
 cursor: pointer;
+}
+
+.button-modal {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+transition-property: color, fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+padding: 10px 52px;
+
+width: 200px;
+height: 50px;
+
+background-color: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: 1px solid var(--accent-color);
+
+cursor: pointer;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+
+color: var(--button-text-color);
 }
 
 .close-btn {
