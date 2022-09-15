@@ -518,12 +518,20 @@ justify-content: center;
 
 margin-bottom: 30px;
 
+color: var(--primary-text-color);
+}
+
+.checkbox-modal input[type="checkbox"] {
+    
+}
+
+.checkbox-contract {
+margin-left: 8px;
+
 font-weight: 400;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-
-color: var(--primary-text-color);
 }
 
 .modal-link {
