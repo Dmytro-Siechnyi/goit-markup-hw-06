@@ -571,11 +571,34 @@ justify-content: center;
 margin-bottom: 30px;
 }
 
-.checkbox-modal input[type="checkbox"] {
+.icon-checked {
+opacity: 0;
+fill: var(--accent-color);
 
+transition: opacity;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox:checked + .checkbox-form-icon .icon-checked {
+opacity: 1;
+}
+
+.icon-unchecked {
+opacity: 1;
+
+transition: opacity;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox:checked+.checkbox-form-icon .icon-unchecked {
+opacity: 0;
 }
 
 .checkbox-contract {
+user-select: none;
+
 margin-left: 8px;
 
 font-weight: 400;
