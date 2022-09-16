@@ -488,11 +488,21 @@ fill: var(--accent-color);
 }
 
 .form-field input::placeholder {
+opacity: 0;
+
+transition: opacity;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.01em;
 color: var(--placeholder-color-text);
 text-align: left;
+}
+
+.form-field input:focus::placeholder {
+opacity: 1;
 }
 
 .span-modal {
