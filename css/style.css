@@ -586,6 +586,12 @@ justify-content: center;
 margin-bottom: 30px;
 }
 
+.checkbox:focus + .checkbox-form-icon {
+outline: 2px solid var(--accent-color);
+outline-offset: 1px;
+border-radius: 1px;
+}
+
 .icon-checked {
 opacity: 0;
 fill: var(--accent-color);
