@@ -493,7 +493,7 @@ color: var(--primary-text-color);
 
 .modal-form-icon {
 fill: var(--title-text-color);
-padding-right: 12px;
+margin-right: 12px;
 }
 
 .textarea-text {
