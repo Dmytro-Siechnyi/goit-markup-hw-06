@@ -456,7 +456,6 @@ color: var(--title-text-color);
 
 .form-field {
 position: relative;
-display: block;
 margin-bottom: 10px;
 
 }
@@ -519,8 +518,7 @@ color: var(--primary-text-color);
 .modal-form-icon {
 position: absolute;
 left: 12px;
-top: 50%;
-transform: translate(-50% -50%);
+bottom: 11px;
 
 transition:fill;
 transition-duration: 250ms;
